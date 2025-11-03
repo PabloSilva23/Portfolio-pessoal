@@ -1,2 +1,2 @@
 # Portfolio-pessoal
-Trabalho de faculdade
+Trabalho do curso
