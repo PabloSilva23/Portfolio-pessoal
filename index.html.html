@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfólio pessoal</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <a href="#sobre_mim">Sobre mim</a>
+            <a href="#formacao">Formação</a>
+            <a href="#portfolio">Portfólio</a>
+            <a href="#contato">Contato</a>
+            <a href="" id="botao-tema">☀️/🌙</a>
+        </nav>
+    </header>
+    <main>
+        <section id="sobre_mim">
+            <h1>Sobre mim</h1>
+            <p>Meu nome é Pablo, moro em Fortaleza. Tenho 28 anos e atualment estou cursando Análise e Desenvolvimento de Sistemas na Uninter. Gosto de música eletrônica, corrida de rua e tênis.Sou uma pessoa curiosa, observadora e determinada. Hoje busco equilíbrio: crescer financeiramente, investir em mim mesmo e conquistar mais liberdade para viver bem e aproveitar a vida.</p>
+        </section>
+        <section id="formacao">
+            <h1>Formação</h1>
+            <p>💻 Cursando análise e desenvolvimento de sistemas.</p>
+            <p>🎓 Uninter - Junho 2021 - Atual.</p>
+            <p>🧠Conhecimentos em metodologias ágeis (Scrum e Kanban), automações utilizando make, consumos de API´s, Webhooks, Chatbots, noções em mySQL, Python, Pyautogui, inglês técnico, Lógica de programação, Trello.</p>
+        </section>
+        <section id="portfolio">
+            <h1>Portfólio</h1>
+            <p>Atualmente, sem portifólio pessoal.</p>
+        </section>
+        <section id="contato">
+            <h1>Contato</h1>
+  
+                <p>Quer falar comigo? Preencha o formulário abaixo:</p>
+                
+                <form action="#" method="post" id="form">
+                    <label for="nome">Nome:</label>
+                    <input type="text" id="nome" name="nome" required> <br>
+                    
+                    <label for="email">E-mail:</label>
+                    <input type="email" id="email" name="email" required> <br>
+                    
+                    <label for="mensagem">Mensagem:</label><br>
+                    <textarea id="mensagem" name="mensagem" rows="4" required></textarea>
+                    
+                    <button type="submit" id="btn">Enviar</button>
+                </form>        
+        </section> 
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
